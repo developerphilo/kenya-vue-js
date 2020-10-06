@@ -1,6 +1,6 @@
 # Handling routes and best practices in Vue
 
-###This is a simple project on my speaker talk on KenyavueJs 
+###This is a simple project on handling routes in VueJs
 
 
 ## Project setup
