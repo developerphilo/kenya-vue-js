@@ -1,9 +1,16 @@
-# Handling routes and best practices in Vue
+# Speaker Talk On "Routing In VueJs" Vuejs Kenya Virtual Meetup 
 
-###This is a simple project on handling routes in VueJs
+This is a simple project on demonstration of using vue-router
 
 
-## Project setup
+## Tech Stack Used
+ - VueJs
+ - Vue-router
+
+### This is a simple project on handling routes in VueJs
+
+
+#### Project setup
 ```
 npm install
 ```
@@ -12,5 +19,6 @@ npm install
 ```
 npm run serve
 ```
+
 
 
