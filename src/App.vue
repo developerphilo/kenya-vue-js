@@ -1,11 +1,20 @@
 <template>
   <div id="app">
-    <h1>KENYAVUEJS MEETING</h1>
-     <h2>Handling Routes And Best Practices</h2>
+    <h1>Virtual Meetup</h1>
+     <h2>Routing In VueJs</h2>
+      <div class="links">
+
+          <router-link to="/">Home</router-link> | 
+          <router-link to="/About">About</router-link> | 
+          <router-link to="/Services">Services</router-link>
+
+      </div>
      
      <hr>
-
-     <router-view></router-view>
+  
+     <router-view>
+       <!-- this is where our routes component views will be rendered -->
+     </router-view>
   </div>
 </template>
 
@@ -44,6 +53,11 @@ h2{
   padding-bottom: 20px;
 
   font-weight: 400;
+}
+.links{
+  text-align: center;
+  padding: 1em 0;
+  text-decoration: none;
 }
 
 </style>
